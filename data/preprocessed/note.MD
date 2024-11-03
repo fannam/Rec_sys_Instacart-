@@ -1,1 +1,1 @@
-
+## Preprocessing data could be time-consuming. You should use TPU-v2 on googlecolab for a hugh amount of RAM. However, you have to split the dataset (my attempt was 100.000 rows for each dataframe) then combined them.
