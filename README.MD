@@ -23,11 +23,14 @@ This project implements four approaches to solve the Instacart Market Basket pro
 ### 3. **LSTM and WaveNet**: First Approach of DL
 - **Description**: A deep learning approach using LSTM and WaveNet architectures to process sequential data.
 - **Results**:
-  - Public Score: **0.40898** (Top 4)
-  - Private Score: **0.40795** (Top 4)
-
-### 4. **Conformer**: Second Approach of DL
-- **Description**: A state-of-the-art deep learning model (Conformer) for modeling sequential and contextual dependencies.
-- **Results**:
   - Public Score: **0.40906** (Top 4)
   - Private Score: **0.40815** (Top 3)
+
+### 4. **Conformer**: Second Approach of DL
+- **Description**: A state-of-the-art deep learning model (Conformer) for modeling sequential and contextual dependencies. However, due to the limitation of time and resources, we've just already trained the model with 400 steps. The result was promising since it outperformed 400 steps-trained-LSTM 
+- **Results of 400-steps-trained Conformer**:
+  - Public Score: **0.39220** (Top 572)
+  - Private Score: **0.39045** (Top 573)
+- **Results of 400-steps-trained LSTM**:
+  - Public Score: **0.38796** (Top 596)
+  - Private Score: **0.38637** (Top 597)
