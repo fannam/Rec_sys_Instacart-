@@ -34,3 +34,6 @@ This project implements four approaches to solve the Instacart Market Basket pro
 - **Results of 400-steps-trained LSTM**:
   - Public Score: **0.38796** (Top 596)
   - Private Score: **0.38637** (Top 597)
+
+
+https://github.com/fannam/Rec_sys_Instacart-
