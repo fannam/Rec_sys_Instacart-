@@ -14,8 +14,8 @@ This project implements four approaches to solve the Instacart Market Basket pro
 - **Description**: An alternative feature engineering strategy, tested with both LightGBM and XGBoost models.
 - **Results**:
   - **LightGBM**:
-    - Public Score: **0.40242** (Top 448)
-    - Private Score: **0.40136** (Top 438)
+    - Public Score: **0.40274** (Top 429)
+    - Private Score: **0.40190** (Top 416)
   - **XGBoost**:
     - Public Score: **0.32484** (Top >1000)
     - Private Score: **0.32412** (Top >1000)
